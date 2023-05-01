@@ -1,0 +1,24 @@
+# REST_API_PHP_JSON
+REST_API_PHP_JSON
+GET
+
+shop  or shop/     //Видає всі записи
+shop  or shop/limit=20      //Видає всі записи з лімітом
+shop/189     //Видає запис з номером  id 189 
+
+shop/filter=TV     //Пошук по всіх колонках
+shop/filter=TV/limit=10    //Пошук по всіх колонках з лімітом
+Пошук по окремих колонках
+shop/filter-category=TV     //limit=10
+shop/filter-category=      //Дитячі_товари 
+shop/filter-category=Конструктори_LEGO  
+shop/filter-title=LEGO  
+shop/kod_product=52468765
+
+Пошук по в кількох колонках
+shop/filter-category=TV/filter-title=112 деталей
+shop/filter-category=TV/filter-title=112 деталей/limit=10
+
+shop/filter-category=TV/filter-title=112 деталей/filter-parameters=Пластик
+shop/filter-category=TV/filter-title=112 деталей/filter-parameters=Пластик/limit=10
+
